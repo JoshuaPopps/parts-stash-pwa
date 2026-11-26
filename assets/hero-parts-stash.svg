@@ -1,0 +1,62 @@
+<!-- Parts Stash hero — hand-drawn, word-free. A shelf of spares:
+     a gear and a brake disc on the top shelf, a parts bin below.
+     Blueprint-sketch style: chrome linework on gloss black, purple
+     accent. Drawn for the app; no stock art, no text. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 240" role="img" aria-label="Parts shelf line drawing">
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#e3e3ea"/>
+      <stop offset="48%" stop-color="#a8a8b2"/>
+      <stop offset="60%" stop-color="#f4f4f8"/>
+      <stop offset="78%" stop-color="#c6c6cf"/>
+      <stop offset="100%" stop-color="#8e8e99"/>
+    </linearGradient>
+  </defs>
+  <!-- blueprint construction lines -->
+  <line x1="430" y1="18" x2="430" y2="228" stroke="#9d6bff" stroke-width="1" stroke-dasharray="3 6" opacity=".35"/>
+  <circle cx="368" cy="76" r="44" fill="none" stroke="url(#chrome)" stroke-width="1" stroke-dasharray="3 6" opacity=".35"/>
+  <!-- ground line with a purple segment under the shelf -->
+  <line x1="60" y1="218" x2="800" y2="218" stroke="url(#chrome)" stroke-width="2"/>
+  <line x1="280" y1="218" x2="580" y2="218" stroke="#9d6bff" stroke-width="2"/>
+  <!-- shelf frame: two uprights, two shelves -->
+  <line x1="280" y1="28" x2="280" y2="218" stroke="url(#chrome)" stroke-width="3.5"/>
+  <line x1="580" y1="28" x2="580" y2="218" stroke="url(#chrome)" stroke-width="3.5"/>
+  <line x1="268" y1="116" x2="592" y2="116" stroke="url(#chrome)" stroke-width="3.5"/>
+  <line x1="268" y1="196" x2="592" y2="196" stroke="url(#chrome)" stroke-width="3.5"/>
+  <!-- gear on the top shelf: toothed wheel, purple hub -->
+  <g stroke="url(#chrome)" stroke-width="3" stroke-linecap="round">
+    <line x1="368" y1="36" x2="368" y2="46"/>
+    <line x1="368" y1="106" x2="368" y2="116"/>
+    <line x1="328" y1="76" x2="338" y2="76"/>
+    <line x1="398" y1="76" x2="408" y2="76"/>
+    <line x1="340" y1="48" x2="347" y2="55"/>
+    <line x1="389" y1="97" x2="396" y2="104"/>
+    <line x1="396" y1="48" x2="389" y2="55"/>
+    <line x1="347" y1="97" x2="340" y2="104"/>
+  </g>
+  <circle cx="368" cy="76" r="30" fill="#101014" stroke="url(#chrome)" stroke-width="3"/>
+  <circle cx="368" cy="76" r="9" fill="#9d6bff"/>
+  <!-- brake disc on the top shelf -->
+  <circle cx="500" cy="80" r="30" fill="#101014" stroke="url(#chrome)" stroke-width="3"/>
+  <circle cx="500" cy="80" r="11" fill="none" stroke="url(#chrome)" stroke-width="2.5"/>
+  <g fill="none" stroke="url(#chrome)" stroke-width="2.5">
+    <circle cx="500" cy="62" r="3.5"/>
+    <circle cx="517" cy="74" r="3.5"/>
+    <circle cx="511" cy="93" r="3.5"/>
+    <circle cx="489" cy="93" r="3.5"/>
+    <circle cx="483" cy="74" r="3.5"/>
+  </g>
+  <!-- parts bin on the bottom shelf -->
+  <path d="M310 132 L438 132 L428 196 L320 196 Z" fill="#101014" stroke="url(#chrome)" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="310" y1="132" x2="438" y2="132" stroke="url(#chrome)" stroke-width="3.5"/>
+  <line x1="326" y1="164" x2="422" y2="164" stroke="url(#chrome)" stroke-width="1.5" opacity=".6"/>
+  <!-- small round filter peeking out of the bin -->
+  <rect x="352" y="104" width="44" height="28" rx="4" fill="#070709" stroke="url(#chrome)" stroke-width="3"/>
+  <line x1="352" y1="113" x2="396" y2="113" stroke="url(#chrome)" stroke-width="1.5" opacity=".6"/>
+  <line x1="352" y1="122" x2="396" y2="122" stroke="url(#chrome)" stroke-width="1.5" opacity=".6"/>
+  <!-- oil can on the bottom shelf, right -->
+  <path d="M480 196 L480 152 Q480 142 492 142 L520 142 Q532 142 532 152 L532 196 Z" fill="#101014" stroke="url(#chrome)" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="532" y1="152" x2="552" y2="136" stroke="url(#chrome)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="494" y1="142" x2="494" y2="134" stroke="url(#9d6bff)" stroke-width="3" stroke-linecap="round"/>
+</svg>

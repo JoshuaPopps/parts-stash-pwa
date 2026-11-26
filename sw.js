@@ -1,10 +1,11 @@
 /* Parts Stash service worker — app-shell cache so the inventory
  * works offline in the garage. Version the cache name on release. */
-var CACHE = 'parts-stash-v1';
+var CACHE = 'parts-stash-v2';
 var ASSETS = [
   './', './index.html', './styles.css', './app.js',
   './sw-update.js', './bike-profile.js',
   './manifest.webmanifest',
+  './assets/hero-parts-stash.svg',
   './icons/icon-192.png', './icons/icon-512.png'
 ];
 
